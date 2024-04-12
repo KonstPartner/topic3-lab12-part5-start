@@ -114,12 +114,12 @@ fun JoinButton(onClick: (Boolean) -> Unit = {}) {
                 imageVector = iconAsset,
                 contentDescription = "Plus Icon",
                 tint = iconTintColor,
-                modifier = Modifier.size(14.dp)
+                modifier = Modifier.size(7.dp)
             )
             Text(
                 text = "Join",
                 color = Color.White,
-                fontSize = 10.sp,
+                fontSize = 5.sp,
                 maxLines = 1,
                 modifier = Modifier.widthIn(min = 0.dp, max = textMaxWidth)
             )
